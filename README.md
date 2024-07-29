@@ -35,17 +35,17 @@ python similarity_check.py match "path/to/new_invoice.pdf"
 ### Adding Invoices:
 
 ```bash
-python similarity_check.py add "D:/similarity_check/document similarity/train/2024.03.15_0954.pdf"
-python similarity_check.py add "D:/similarity_check/document similarity/train/2024.03.15_1145.pdf"
-python similarity_check.py add "D:/similarity_check/document similarity/train/Faller_8.pdf"
-python similarity_check.py add "D:/similarity_check/document similarity/train/invoice_77073.pdf"
-python similarity_check.py add "D:/similarity_check/document similarity/train/invoice_102856.pdf"
+python similarity_check.py add "D:/similarity_check/document similarity/train/1.pdf"
+python similarity_check.py add "D:/similarity_check/document similarity/train/2.pdf"
+python similarity_check.py add "D:/similarity_check/document similarity/train/3.pdf"
+python similarity_check.py add "D:/similarity_check/document similarity/train/4.pdf"
+python similarity_check.py add "D:/similarity_check/document similarity/train/5.pdf"
 ```
 
 ### Matching an Invoice:
 
 ```bash
-python similarity_check.py match "D:/similarity_check/document similarity/test/invoice_77098.pdf"
+python similarity_check.py match "D:/similarity_check/document similarity/test/invoice.pdf"
 ```
 
 ## Output
